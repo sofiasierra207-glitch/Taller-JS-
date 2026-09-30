@@ -110,6 +110,6 @@ for (let i = 1; i <= 5; i++) {
 try{
     throw new Error("algo salió mal");
 } catch (error){
-    console.log("Lo siento, ocurrio un error :,( ",error.message);
+    console.log("Lo siento, ocurrio un error",error.message);
 }
 
