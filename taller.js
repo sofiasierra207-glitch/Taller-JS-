@@ -160,7 +160,7 @@ const coche = {
     }
 };
 coche.mostrarMarca(); // Muestra "BYD"
-// this representa el objeto coche en este caso.}*/
+// this representa el objeto coche en este caso.}
 
 //Punto 7 - Ejercicio 7.1
 let frutas = ["Manzana", "Banana"];
@@ -168,4 +168,11 @@ console.log(frutas);
 frutas.push("Naranja");
 console.log(frutas);
 frutas.pop();
-console.log(frutas);
+console.log(frutas);*/
+
+//Punto 7 - Ejercicio 7.2
+let num = [1, 2, 3];
+const numMulti = num.map(num => num * 2);
+const numFil = num.filter(num => num > 1);
+console.log(numMulti); // [2, 4, 6]
+console.log(numFil); // [2, 3]
