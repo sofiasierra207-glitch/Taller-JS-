@@ -76,7 +76,7 @@ console.log(typeof boolResult2); // "boolean"
 
 console.log ( 10 == "10");
 console.log ( 10 === "10");
-// La diferencia entre el primero y el segundo es que el primero solo compara el valor y el segundo compara el valor y el tipo de dato.*/
+// La diferencia entre el primero y el segundo es que el primero solo compara el valor y el segundo compara el valor y el tipo de dato.
 
 //Punto 4 - Ejercicio 4.2
 
@@ -94,7 +94,13 @@ if (num1 % 2 === 0) {
 if (num2 % 2 === 0) {
     console.log(num2 + " es par");
 } else {
-    console.log(num2 + " es impar");
+    console.log(num2 + " es impar"); */
+
+
+//Punto 4 - Ejercicio 4.3
+
+//ciclo for 
+
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
 }
-
-
