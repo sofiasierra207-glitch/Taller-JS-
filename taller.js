@@ -120,7 +120,7 @@ console.log(multiplicar(12, 1));
 
 function multiplicar(num1, num2) {
     return num1 * num2;
-}*/
+}
 
 //Punto 5 - Ejercicio 5.2
 
@@ -128,5 +128,11 @@ const multiplicar = (num1, num2) => {
     return num1 * num2;
 };
 multiplicar(12, 1);
-console.log(multiplicar(12, 1));
+console.log(multiplicar(12, 1));*/
 
+//Punto 5 - Ejercicio 5.3
+
+const saludar = () => {
+    return "¡Hola a todos!";
+};
+console.log(saludar());
