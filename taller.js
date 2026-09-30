@@ -128,11 +128,25 @@ const multiplicar = (num1, num2) => {
     return num1 * num2;
 };
 multiplicar(12, 1);
-console.log(multiplicar(12, 1));*/
+console.log(multiplicar(12, 1));
 
 //Punto 5 - Ejercicio 5.3
 
 const saludar = () => {
     return "¡Hola a todos!";
 };
-console.log(saludar());
+console.log(saludar());*/
+
+//Punto 6 - Ejercicio 6.1
+
+const variableGlobal = "Soy una variable global";
+function mostrarVariableGlobal() {
+    const variableLocal = "Soy una variable local";
+    console.log(variableGlobal);
+    console.log(variableLocal);
+}
+mostrarVariableGlobal();
+console.log(variableGlobal);
+console.log(variableLocal);
+
+//La variable global funciona tanto adentro como afuera de la funcion porque a esta se puede acceder sin importar la parte del codigo, sin embargo, la local solo se reconoce dentro de la funcion al ser especifica de ella.
