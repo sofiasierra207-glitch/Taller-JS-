@@ -185,7 +185,7 @@ const frutaEncontrada = frutas.find(fruta => fruta === "Banana");
 console.log(frutaEncontrada); // "Banana"
 
 const indiceManzana = frutas.findIndex(fruta => fruta === "Manzana");
-console.log(indiceManzana); // 0*/
+console.log(indiceManzana); // 0
 
 //Punto 8 - Ejercicio 8.1
 
@@ -197,3 +197,16 @@ const libro = {
     }
 };
 libro.mostrarInfo();
+*/
+
+//Punto 8 - Ejercicio 8.2
+
+class Animal {
+    constructor(nom) {
+        this.nombre = this.nombre;
+    }
+    saludar() {
+        console.log("Hola $(this.nombre)")
+    }
+
+}
