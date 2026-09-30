@@ -111,7 +111,7 @@ try{
     throw new Error("algo salió mal");
 } catch (error){
     console.log("Lo siento, ocurrio un error",error.message);
-}*/
+}
 
 //Punto 5 - Ejercicio 5.1
 
@@ -120,5 +120,13 @@ console.log(multiplicar(12, 1));
 
 function multiplicar(num1, num2) {
     return num1 * num2;
-}
+}*/
+
+//Punto 5 - Ejercicio 5.2
+
+const multiplicar = (num1, num2) => {
+    return num1 * num2;
+};
+multiplicar(12, 1);
+console.log(multiplicar(12, 1));
 
