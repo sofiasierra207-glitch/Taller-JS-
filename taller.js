@@ -202,11 +202,16 @@ libro.mostrarInfo();
 //Punto 8 - Ejercicio 8.2
 
 class Animal {
-    constructor(nom) {
-        this.nombre = this.nombre;
-    }
-    saludar() {
-        console.log("Hola $(this.nombre)")
-    }
+  constructor(nombre) {
+    this.nombre = nombre; 
+  }
 
+  saludar() {
+    return `Hola, soy un animal y mi nombre es ${this.nombre}.`;
+  }
 }
+
+
+const mascota = new Animal('Max');
+const saludo = mascota.saludar();
+console.log(saludo);
