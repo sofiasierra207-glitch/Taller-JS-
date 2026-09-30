@@ -168,11 +168,21 @@ console.log(frutas);
 frutas.push("Naranja");
 console.log(frutas);
 frutas.pop();
-console.log(frutas);*/
+console.log(frutas);
 
 //Punto 7 - Ejercicio 7.2
 let num = [1, 2, 3];
 const numMulti = num.map(num => num * 2);
 const numFil = num.filter(num => num > 1);
 console.log(numMulti); // [2, 4, 6]
-console.log(numFil); // [2, 3]
+console.log(numFil); // [2, 3]*/
+
+//Punto 7 - Ejercicio 7.3
+let frutas = ["Manzana", "Banana", "Naranja"];
+frutas.forEach(fruta => console.log(fruta));
+
+const frutaEncontrada = frutas.find(fruta => fruta === "Banana");
+console.log(frutaEncontrada); // "Banana"
+
+const indiceManzana = frutas.findIndex(fruta => fruta === "Manzana");
+console.log(indiceManzana); // 0
