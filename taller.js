@@ -150,7 +150,7 @@ console.log(variableGlobal);
 console.log(variableLocal);
 
 //La variable global funciona tanto adentro como afuera de la funcion porque a esta se puede acceder sin importar la parte del codigo, sin embargo, la local solo se reconoce dentro de la funcion al ser especifica de ella.
-*/
+
 
 //Punto 6 - Ejercicio 6.2
 const coche = {
@@ -160,5 +160,12 @@ const coche = {
     }
 };
 coche.mostrarMarca(); // Muestra "BYD"
-// this representa el objeto coche en este caso.}
+// this representa el objeto coche en este caso.}*/
 
+//Punto 7 - Ejercicio 7.1
+let frutas = ["Manzana", "Banana"];
+console.log(frutas);
+frutas.push("Naranja");
+console.log(frutas);
+frutas.pop();
+console.log(frutas);
