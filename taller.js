@@ -94,7 +94,7 @@ if (num1 % 2 === 0) {
 if (num2 % 2 === 0) {
     console.log(num2 + " es par");
 } else {
-    console.log(num2 + " es impar"); */
+    console.log(num2 + " es impar"); 
 
 
 //Punto 4 - Ejercicio 4.3
@@ -103,4 +103,13 @@ if (num2 % 2 === 0) {
 
 for (let i = 1; i <= 5; i++) {
     console.log(i);
+}*/
+
+//Punto 4 - Ejercicio 4.4
+
+try{
+    throw new Error("algo salió mal");
+} catch (error){
+    console.log("Lo siento, ocurrio un error :,( ",error.message);
 }
+
