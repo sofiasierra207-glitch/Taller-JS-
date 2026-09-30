@@ -52,3 +52,4 @@ console.log(Array.isArray(pers.hobbies));
 const num1 = 10;
 const num2 = "5";
 console.log(num1 + num2); // Suma las variables dando como resultado 105 ya que paso el valor del string a un numero, porque el prioriza la concatenación de strings.
+console.log(num1 * num2); // Multiplica las variables dando como resultado 50 ya que el operador * convierte el string en un número para poder realizar la operación.
