@@ -175,7 +175,7 @@ let num = [1, 2, 3];
 const numMulti = num.map(num => num * 2);
 const numFil = num.filter(num => num > 1);
 console.log(numMulti); // [2, 4, 6]
-console.log(numFil); // [2, 3]*/
+console.log(numFil); // [2, 3]
 
 //Punto 7 - Ejercicio 7.3
 let frutas = ["Manzana", "Banana", "Naranja"];
@@ -185,4 +185,15 @@ const frutaEncontrada = frutas.find(fruta => fruta === "Banana");
 console.log(frutaEncontrada); // "Banana"
 
 const indiceManzana = frutas.findIndex(fruta => fruta === "Manzana");
-console.log(indiceManzana); // 0
+console.log(indiceManzana); // 0*/
+
+//Punto 8 - Ejercicio 8.1
+
+const libro = {
+    titulo: "El Principito",
+    autor: "Antoine de Saint-Exupéry",
+    mostrarInfo() {
+        console.log("Título: " + this.titulo + ", Autor: " + this.autor);
+    }
+};
+libro.mostrarInfo();
