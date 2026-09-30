@@ -197,7 +197,7 @@ const libro = {
     }
 };
 libro.mostrarInfo();
-*/
+
 
 //Punto 8 - Ejercicio 8.2
 
@@ -212,6 +212,36 @@ class Animal {
 }
 
 
-const mascota = new Animal('Max');
+const mascota = new Animal('Nya');
 const saludo = mascota.saludar();
-console.log(saludo);
+console.log(saludo);*/
+
+
+//Punto 8 - Ejercicio 8.2
+
+class Animal {
+  constructor(nombre) {
+    this.nombre = nombre;
+  }
+
+  saludar() {
+    return `Hola, soy un animal y mi nombre es ${this.nombre}.`;
+  }
+}
+
+class Perro extends Animal {
+  constructor(nombre, raza) {
+    super(nombre); 
+    this.raza = raza; 
+  }
+
+ 
+  saludar() {
+    return `Hola, soy un perro de raza ${this.raza} y mi nombre es ${this.nombre}.`;
+  }
+}
+
+
+const miPerro = new Perro('Nya', 'Golden Retriever');
+
+console.log(miPerro.saludar()); 
