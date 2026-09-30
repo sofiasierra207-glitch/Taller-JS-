@@ -217,7 +217,7 @@ const saludo = mascota.saludar();
 console.log(saludo);*/
 
 
-//Punto 8 - Ejercicio 8.2
+//Punto 8 - Ejercicio 8.3
 
 class Animal {
   constructor(nombre) {
