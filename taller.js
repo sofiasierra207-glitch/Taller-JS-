@@ -103,7 +103,7 @@ if (num2 % 2 === 0) {
 
 for (let i = 1; i <= 5; i++) {
     console.log(i);
-}*/
+}
 
 //Punto 4 - Ejercicio 4.4
 
@@ -111,5 +111,14 @@ try{
     throw new Error("algo salió mal");
 } catch (error){
     console.log("Lo siento, ocurrio un error",error.message);
+}*/
+
+//Punto 5 - Ejercicio 5.1
+
+multiplicar(12, 1);
+console.log(multiplicar(12, 1));
+
+function multiplicar(num1, num2) {
+    return num1 * num2;
 }
 
