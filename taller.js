@@ -52,7 +52,7 @@ console.log(Array.isArray(pers.hobbies));
 const num1 = 10;
 const num2 = "5";
 console.log(num1 + num2); // Suma las variables dando como resultado 105 ya que paso el valor del string a un numero, porque el prioriza la concatenación de strings.
-console.log(num1 * num2); // Multiplica las variables dando como resultado 50 ya que el operador * convierte el string en un número para poder realizar la operación.*/
+console.log(num1 * num2); // Multiplica las variables dando como resultado 50 ya que el operador * convierte el string en un número para poder realizar la operación.
 
 //Punto 3 - Ejercicio 3.2
 
@@ -70,4 +70,10 @@ const bool2 = "Hola";
 const boolResult1 = Boolean(bool1);
 const boolResult2 = Boolean(bool2);
 console.log(typeof boolResult1); // "boolean"
-console.log(typeof boolResult2); // "boolean"
+console.log(typeof boolResult2); // "boolean"*/
+
+//Punto 4 - Ejercicio 4.1
+
+console.log ( 10 == "10");
+console.log ( 10 === "10");
+// La diferencia entre el primero y el segundo es que el primero solo compara el valor y el segundo compara el valor y el tipo de dato.
