@@ -135,7 +135,7 @@ console.log(multiplicar(12, 1));
 const saludar = () => {
     return "¡Hola a todos!";
 };
-console.log(saludar());*/
+console.log(saludar());
 
 //Punto 6 - Ejercicio 6.1
 
@@ -150,3 +150,15 @@ console.log(variableGlobal);
 console.log(variableLocal);
 
 //La variable global funciona tanto adentro como afuera de la funcion porque a esta se puede acceder sin importar la parte del codigo, sin embargo, la local solo se reconoce dentro de la funcion al ser especifica de ella.
+*/
+
+//Punto 6 - Ejercicio 6.2
+const coche = {
+    marca: "BYD",
+    mostrarMarca() { 
+        console.log(this.marca);
+    }
+};
+coche.mostrarMarca(); // Muestra "BYD"
+// this representa el objeto coche en este caso.}
+
