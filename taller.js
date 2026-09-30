@@ -70,10 +70,31 @@ const bool2 = "Hola";
 const boolResult1 = Boolean(bool1);
 const boolResult2 = Boolean(bool2);
 console.log(typeof boolResult1); // "boolean"
-console.log(typeof boolResult2); // "boolean"*/
+console.log(typeof boolResult2); // "boolean"
 
 //Punto 4 - Ejercicio 4.1
 
 console.log ( 10 == "10");
 console.log ( 10 === "10");
-// La diferencia entre el primero y el segundo es que el primero solo compara el valor y el segundo compara el valor y el tipo de dato.
+// La diferencia entre el primero y el segundo es que el primero solo compara el valor y el segundo compara el valor y el tipo de dato.*/
+
+//Punto 4 - Ejercicio 4.2
+
+//Par o impar 
+
+const num1 = 18; 
+const num2 = 13;
+
+if (num1 % 2 === 0) {
+    console.log(num1 + " es par");
+} else {
+    console.log(num1 + " es impar");
+}
+
+if (num2 % 2 === 0) {
+    console.log(num2 + " es par");
+} else {
+    console.log(num2 + " es impar");
+}
+
+
