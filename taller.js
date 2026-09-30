@@ -1,4 +1,4 @@
-// Ejercicio 1.1
+/* Ejercicio 1.1
 
 //var nom = "Anny";
 
@@ -34,4 +34,15 @@ const nulls = null;
 console.log(typeof nulls);
 
 let unde;
-console.log(typeof unde);
+console.log(typeof unde);*/
+
+//Punto 2 - Ejercicio 2.2
+
+const pers = {
+    nom: "Anny",
+    edad: 19,
+    hobbies: ["leer", "ver series", "estar con amigos"],
+};
+console.log(typeof pers);
+console.log(Array.isArray(pers.hobbies)); 
+// El objeto es un object y tiene tres diferentes tipos de datos que son string, number y array.
